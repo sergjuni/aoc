@@ -15,7 +15,6 @@ const locationIdB = column2.map(Number).sort();
 function calcDistance(locationIdA: number[], locationIdB: number[]) {
 let totalDifference = 0
 for (let i = 0; i < locationIdA.length; i++) {
-  console.log
   const diff = Math.abs(locationIdA[i] - locationIdB[i]);
   totalDifference += diff;
 }
